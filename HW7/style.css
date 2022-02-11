@@ -103,12 +103,23 @@
         border-radius: 3%;
       }
 
+      .separ {
+        background-color: white;
+        padding: 16px;
+      }
+
       .main-img {
         background-color: #f2f2f2;
+        padding-bottom: 100px;
+      }
+
+      .main-text {
+          padding-top: 128px;;
+          padding-left: 64px;
       }
 
       h2 {
-        font-size: 30px;
+        font-size: 24px;
         color: #34b1da;
         font-weight: bold;
         margin-bottom: 18px;
@@ -149,3 +160,42 @@
         float: right;
         margin-top: -60px;
       }
+
+      .add-img {
+        display: grid;
+        grid-template-columns: 376px 376px 376px;
+        justify-content: space-between;
+      }
+
+      .banner1 {
+          background-color: #f2f2f2;
+          padding: 52px 26px;
+      }
+      
+      .banner1 h2 {
+          color: #434343;
+      }
+
+      .banner2 {
+        background-color: #34b1da;
+        padding: 52px 26px;
+     }
+
+     .banner2 h2 {
+         color: #f2f2f2;
+         font-weight: bold;
+     }
+    
+     .banner3 {
+        background-color: #f2f2f2;
+        padding: 52px 26px;
+     }
+
+     .smart-watches {
+         color: #464646;
+     }
+
+     .latest {
+        background-color: #f2f2f2;
+        padding: 12px;
+     }
