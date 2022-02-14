@@ -28,10 +28,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 20px;
       }
 
       .search input {
-        padding: 10px 186px;
+        padding: 8px 186px;
         background-color: #f2f2f2;
         border: 1px solid #e5e5e5;
         border-width: 2px;
@@ -44,7 +45,7 @@
         color: #f2f2f2;
         background-color: #34b1da;
         border: none;
-        padding: 14px 26px;
+        padding: 10px 22px;
         border-radius: 4px;
         float: right;
         transition: all ease 0.35s;
@@ -62,7 +63,13 @@
         color: black;
         font-size: 22px;
         font-weight: bold;
-        float: right;
+        transition: all ease 0.35s;
+        margin-left: 20px;
+      }
+
+      .phone-link:hover {
+        color: aqua;
+        transition: all ease 0.35s;
       }
 
       .phone-link img {
@@ -70,10 +77,18 @@
         margin-right: 16px;
       }
 
-      nav {
+      .header-nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        border-radius: 3%;
+      }
+
+      .header-nav-inner {
+        display: flex;
+        align-items: center;
+        background-color: #434343;
+        padding-right: 134px; 
       }
 
       .categories {
@@ -83,37 +98,34 @@
         border: none;
         padding: 16px 88px;
         border-radius: 3%;
-        text-align: left;
-      }
-
-      .nav-links {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        border-radius: 3%;
-        padding: 26px 0px;
+        padding-left: 30px;
       }
 
       .nav-links a {
-        outline: none;
         text-decoration: none;
         color: #f2f2f2;
         background-color: #434343;
-        padding: 9px 34px;
-        transition: all ease 0.35s;
+        padding: 9px 24px;
+        display: inline-block;
       }
 
-      .nav-links a:hover {
-        color: #73c9e6;
-        transition: all ease 0.35s;
-        cursor: pointer;
-      }
+        .nav-links a:hover {
+          color: #73c9e6;
+          transition: all ease 0.35s;
+          cursor: pointer;
+          border-radius: 3%;
+        }
+        .nav-links a img {
+          width: 24px;
+          padding-right: 4px;
+        }
 
       .buy {
         font-size: 14px;
         color: #f2f2f2;
         background-color: #34b1da;
         border: none;
-        padding: 16px 64px;
+        padding: 20px 64px;
         border-radius: 3%;
       }
 
@@ -191,7 +203,7 @@
         border: 4px solid #73c9e6;
         transition: all ease 0.35s;
         cursor: pointer;
-    }
+      }
       
       .banner1 img {
         width: 65%;
@@ -205,13 +217,13 @@
       .banner2 {
         background-color: #34b1da;
         padding: 52px 26px;
-     }
+      }
 
      .banner2:hover {
         border: 4px solid #73c9e6;
         transition: all ease 0.35s;
         cursor: pointer;
-    }
+      }
 
      .banner2 h2 {
          color: #f2f2f2;
@@ -258,8 +270,10 @@
     }
 
      .banner4 img {
-
         padding-left: 60px;
+        margin-bottom: 54px;
+        margin-top: 54px;
+        cursor: pointer;
      }
 
      .banner4 h3 {
@@ -281,6 +295,7 @@
      }
 
      .banner4 p {
+       margin-top: 6px;
         font-size: 12px;
      }
 
@@ -344,7 +359,7 @@
         font-size: 18px;
         outline: none;
         text-decoration: none;
-        color: black;
+        color: aqua;
         transition: all ease 0.35s;
     }
     
