@@ -129,8 +129,9 @@ nav {
     padding: 0 48px;
 }
 
-.cart p {
+.cart span {
     color: white;
+    margin-bottom: 0;
 }
 
 .separ {
@@ -187,6 +188,7 @@ margin-left: 500px;
 display: grid;
 grid-template-columns: 376px 376px 376px;
 justify-content: space-between;
+margin-bottom: 30px;
 }
 
 .banner1 {
@@ -344,8 +346,8 @@ text-decoration: none;
 font-size: 12px;
 color: #34b1da;
 transition: all ease 0.35s;
-padding: 6px;
-
+padding: 6px 0;
+width: fit-content;
 }
 
 .foot-column a:hover {
@@ -362,7 +364,8 @@ margin-bottom: 14px;
 
 .author p {
 color: white;
-padding-bottom: 48px;
+padding-bottom: 24px;
+margin-bottom: 0;
 }
 
 .Chaus {
@@ -443,6 +446,7 @@ background-color: #34b1da;
 
     .nav-links a img {
         height: 20px;
+        padding-right: 30px;
     }
 
     .nav-logo {
@@ -499,6 +503,20 @@ background-color: #34b1da;
     .banner4:nth-child(3) {
         display: none;
     }
+
+    .cart {
+        padding: 0 32px;
+    }
+
+    .banner1 {
+        margin-bottom: 30px;
+    }
+
+    .banner2 {
+        margin-bottom: 30px;
+    }
+
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -554,10 +572,41 @@ background-color: #34b1da;
         margin-top: -300px;
         margin-left: 230px;
     }
+
+    .foot-columns {
+        padding: 36px 100px 24px 0;
+    }
+
+    .banner4 {
+        width: 100%;
+    }
+
+    .banner3 img {
+        margin: -100px 0 0 150px;
+    }
+
+    .banner2 {
+        height: 250px;
+    }
 }
 
 @media screen and (max-width: 576px) {
     .wrapper {
          width: calc(100% - 40px) ;
+    }
+
+    .main-img img {
+        width: 45%;
+        margin-left: 150px;
+    }
+
+    .nav-logo{
+        order: 1;
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+    .foot-columns {
+        padding: 36px 0 24px 0;
     }
 }
